@@ -2,4 +2,15 @@
 
 ## Description
 
+This project uses data from the CDC's Environmental Public Health Tracking Network (https://ephtracking.cdc.gov/DataExplorer/#/), which provides data and information on environmental hazards, health effects, and population health. We draw on four datasets focusing on heat-related health impacts spanning 2000-2023: 
+1. County-level extreme heat events (74,592 observations across 1,806 counties), defined as two or more consecutive days with maximum temperatures ≥100°F, collected by NOAA. 
+
+2. State-level hospitalizations for heat-related illness (6,740 observations across 35 states), from state inpatient discharge databases.
+
+3. State-level emergency department visits for heat-related illness (5,120 observations across 32 states), from state syndromic surveillance systems.
+
+4. State-level heat-related deaths (1,173 observations across 51 states through 2023), identified using ICD-10 codes from death certificates. 
+
+All health outcome datasets (Tables 2-4) include breakdowns by age group and sex. The data is updated annually by the CDC. 
+Key limitations include incomplete state participation in health outcomes reporting and differences in geographic resolution, with heat events tracked at the county level while health outcomes are only available at the state level. Additionally, the mortality dataset has substantial data suppression where values are not reported when annual deaths fall below 10 for privacy protection.
 ## Missing value analysis

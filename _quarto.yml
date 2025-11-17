@@ -6,12 +6,12 @@ execute:
   echo: true
 
 book:
-  title: "YOUR PROJECT TITLE"
+  title: "Your Title (TBD)"
   author:
-    - AUTHOR1 (UNI1)
-    - AUTHOR2 (UNI2)
-  repo-url: https://github.com/YOUR_GITHUB_ACCOUNT/REPO_NAME
-  date: today
+    - Khushi Advani (ka3090)
+    - Ishmeen Garewal (ig2548)
+  repo-url: https://github.com/ishmeen-11/EDAV-Project.git
+  date: 11/17/2025
   page-footer:
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
