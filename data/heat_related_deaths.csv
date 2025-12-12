@@ -1,0 +1,1174 @@
+StateFIPS,State,Year,Deaths
+1,Alabama,2000,10
+1,Alabama,2001,Suppressed
+1,Alabama,2002,Suppressed
+1,Alabama,2003,Suppressed
+1,Alabama,2004,Suppressed
+1,Alabama,2005,Suppressed
+1,Alabama,2006,Suppressed
+1,Alabama,2007,17
+1,Alabama,2008,Suppressed
+1,Alabama,2009,Suppressed
+1,Alabama,2010,12
+1,Alabama,2011,12
+1,Alabama,2012,13
+1,Alabama,2013,Suppressed
+1,Alabama,2014,Suppressed
+1,Alabama,2015,Suppressed
+1,Alabama,2016,12
+1,Alabama,2017,13
+1,Alabama,2018,16
+1,Alabama,2019,20
+1,Alabama,2020,15
+1,Alabama,2021,10
+1,Alabama,2022,28
+2,Alaska,2000,0
+2,Alaska,2001,0
+2,Alaska,2002,0
+2,Alaska,2003,0
+2,Alaska,2004,0
+2,Alaska,2005,Suppressed
+2,Alaska,2006,0
+2,Alaska,2007,0
+2,Alaska,2008,0
+2,Alaska,2009,Suppressed
+2,Alaska,2010,Suppressed
+2,Alaska,2011,Suppressed
+2,Alaska,2012,0
+2,Alaska,2013,Suppressed
+2,Alaska,2014,0
+2,Alaska,2015,0
+2,Alaska,2016,0
+2,Alaska,2017,Suppressed
+2,Alaska,2018,Suppressed
+2,Alaska,2019,Suppressed
+2,Alaska,2020,Suppressed
+2,Alaska,2021,Suppressed
+2,Alaska,2022,Suppressed
+4,Arizona,2000,37
+4,Arizona,2001,30
+4,Arizona,2002,43
+4,Arizona,2003,56
+4,Arizona,2004,42
+4,Arizona,2005,82
+4,Arizona,2006,113
+4,Arizona,2007,50
+4,Arizona,2008,50
+4,Arizona,2009,90
+4,Arizona,2010,97
+4,Arizona,2011,117
+4,Arizona,2012,109
+4,Arizona,2013,92
+4,Arizona,2014,69
+4,Arizona,2015,93
+4,Arizona,2016,177
+4,Arizona,2017,221
+4,Arizona,2018,187
+4,Arizona,2019,212
+4,Arizona,2020,373
+4,Arizona,2021,418
+4,Arizona,2022,517
+5,Arkansas,2000,12
+5,Arkansas,2001,Suppressed
+5,Arkansas,2002,Suppressed
+5,Arkansas,2003,Suppressed
+5,Arkansas,2004,Suppressed
+5,Arkansas,2005,12
+5,Arkansas,2006,10
+5,Arkansas,2007,12
+5,Arkansas,2008,Suppressed
+5,Arkansas,2009,Suppressed
+5,Arkansas,2010,23
+5,Arkansas,2011,24
+5,Arkansas,2012,17
+5,Arkansas,2013,Suppressed
+5,Arkansas,2014,Suppressed
+5,Arkansas,2015,19
+5,Arkansas,2016,Suppressed
+5,Arkansas,2017,12
+5,Arkansas,2018,12
+5,Arkansas,2019,15
+5,Arkansas,2020,13
+5,Arkansas,2021,16
+5,Arkansas,2022,33
+6,California,2000,41
+6,California,2001,25
+6,California,2002,43
+6,California,2003,38
+6,California,2004,33
+6,California,2005,62
+6,California,2006,188
+6,California,2007,67
+6,California,2008,42
+6,California,2009,54
+6,California,2010,39
+6,California,2011,26
+6,California,2012,61
+6,California,2013,66
+6,California,2014,47
+6,California,2015,49
+6,California,2016,67
+6,California,2017,98
+6,California,2018,98
+6,California,2019,57
+6,California,2020,128
+6,California,2021,139
+6,California,2022,160
+8,Colorado,2000,Suppressed
+8,Colorado,2001,Suppressed
+8,Colorado,2002,Suppressed
+8,Colorado,2003,Suppressed
+8,Colorado,2004,Suppressed
+8,Colorado,2005,Suppressed
+8,Colorado,2006,Suppressed
+8,Colorado,2007,0
+8,Colorado,2008,Suppressed
+8,Colorado,2009,Suppressed
+8,Colorado,2010,Suppressed
+8,Colorado,2011,Suppressed
+8,Colorado,2012,Suppressed
+8,Colorado,2013,Suppressed
+8,Colorado,2014,Suppressed
+8,Colorado,2015,Suppressed
+8,Colorado,2016,Suppressed
+8,Colorado,2017,Suppressed
+8,Colorado,2018,Suppressed
+8,Colorado,2019,Suppressed
+8,Colorado,2020,11
+8,Colorado,2021,15
+8,Colorado,2022,14
+9,Connecticut,2000,Suppressed
+9,Connecticut,2001,0
+9,Connecticut,2002,0
+9,Connecticut,2003,0
+9,Connecticut,2004,Suppressed
+9,Connecticut,2005,0
+9,Connecticut,2006,Suppressed
+9,Connecticut,2007,Suppressed
+9,Connecticut,2008,Suppressed
+9,Connecticut,2009,Suppressed
+9,Connecticut,2010,Suppressed
+9,Connecticut,2011,Suppressed
+9,Connecticut,2012,Suppressed
+9,Connecticut,2013,Suppressed
+9,Connecticut,2014,Suppressed
+9,Connecticut,2015,0
+9,Connecticut,2016,Suppressed
+9,Connecticut,2017,Suppressed
+9,Connecticut,2018,Suppressed
+9,Connecticut,2019,Suppressed
+9,Connecticut,2020,Suppressed
+9,Connecticut,2021,Suppressed
+9,Connecticut,2022,Suppressed
+10,Delaware,2000,0
+10,Delaware,2001,Suppressed
+10,Delaware,2002,Suppressed
+10,Delaware,2003,0
+10,Delaware,2004,0
+10,Delaware,2005,Suppressed
+10,Delaware,2006,Suppressed
+10,Delaware,2007,0
+10,Delaware,2008,0
+10,Delaware,2009,0
+10,Delaware,2010,0
+10,Delaware,2011,Suppressed
+10,Delaware,2012,0
+10,Delaware,2013,Suppressed
+10,Delaware,2014,Suppressed
+10,Delaware,2015,0
+10,Delaware,2016,Suppressed
+10,Delaware,2017,0
+10,Delaware,2018,Suppressed
+10,Delaware,2019,Suppressed
+10,Delaware,2020,Suppressed
+10,Delaware,2021,Suppressed
+10,Delaware,2022,Suppressed
+11,District of Columbia,2000,Suppressed
+11,District of Columbia,2001,0
+11,District of Columbia,2002,Suppressed
+11,District of Columbia,2003,0
+11,District of Columbia,2004,0
+11,District of Columbia,2005,0
+11,District of Columbia,2006,Suppressed
+11,District of Columbia,2007,Suppressed
+11,District of Columbia,2008,Suppressed
+11,District of Columbia,2009,0
+11,District of Columbia,2010,Suppressed
+11,District of Columbia,2011,13
+11,District of Columbia,2012,Suppressed
+11,District of Columbia,2013,Suppressed
+11,District of Columbia,2014,0
+11,District of Columbia,2015,0
+11,District of Columbia,2016,Suppressed
+11,District of Columbia,2017,Suppressed
+11,District of Columbia,2018,0
+11,District of Columbia,2019,0
+11,District of Columbia,2020,Suppressed
+11,District of Columbia,2021,0
+11,District of Columbia,2022,Suppressed
+12,Florida,2000,Suppressed
+12,Florida,2001,19
+12,Florida,2002,14
+12,Florida,2003,16
+12,Florida,2004,25
+12,Florida,2005,20
+12,Florida,2006,26
+12,Florida,2007,14
+12,Florida,2008,16
+12,Florida,2009,32
+12,Florida,2010,23
+12,Florida,2011,16
+12,Florida,2012,17
+12,Florida,2013,16
+12,Florida,2014,18
+12,Florida,2015,18
+12,Florida,2016,29
+12,Florida,2017,42
+12,Florida,2018,15
+12,Florida,2019,27
+12,Florida,2020,41
+12,Florida,2021,25
+12,Florida,2022,35
+13,Georgia,2000,Suppressed
+13,Georgia,2001,Suppressed
+13,Georgia,2002,Suppressed
+13,Georgia,2003,Suppressed
+13,Georgia,2004,Suppressed
+13,Georgia,2005,15
+13,Georgia,2006,10
+13,Georgia,2007,20
+13,Georgia,2008,Suppressed
+13,Georgia,2009,16
+13,Georgia,2010,26
+13,Georgia,2011,12
+13,Georgia,2012,12
+13,Georgia,2013,Suppressed
+13,Georgia,2014,10
+13,Georgia,2015,11
+13,Georgia,2016,13
+13,Georgia,2017,13
+13,Georgia,2018,Suppressed
+13,Georgia,2019,18
+13,Georgia,2020,20
+13,Georgia,2021,10
+13,Georgia,2022,21
+15,Hawaii,2000,Suppressed
+15,Hawaii,2001,Suppressed
+15,Hawaii,2002,0
+15,Hawaii,2003,0
+15,Hawaii,2004,0
+15,Hawaii,2005,Suppressed
+15,Hawaii,2006,Suppressed
+15,Hawaii,2007,0
+15,Hawaii,2008,Suppressed
+15,Hawaii,2009,Suppressed
+15,Hawaii,2010,Suppressed
+15,Hawaii,2011,0
+15,Hawaii,2012,0
+15,Hawaii,2013,Suppressed
+15,Hawaii,2014,Suppressed
+15,Hawaii,2015,Suppressed
+15,Hawaii,2016,Suppressed
+15,Hawaii,2017,Suppressed
+15,Hawaii,2018,0
+15,Hawaii,2019,Suppressed
+15,Hawaii,2020,0
+15,Hawaii,2021,Suppressed
+15,Hawaii,2022,Suppressed
+16,Idaho,2000,Suppressed
+16,Idaho,2001,Suppressed
+16,Idaho,2002,0
+16,Idaho,2003,Suppressed
+16,Idaho,2004,Suppressed
+16,Idaho,2005,0
+16,Idaho,2006,Suppressed
+16,Idaho,2007,Suppressed
+16,Idaho,2008,Suppressed
+16,Idaho,2009,Suppressed
+16,Idaho,2010,0
+16,Idaho,2011,Suppressed
+16,Idaho,2012,Suppressed
+16,Idaho,2013,Suppressed
+16,Idaho,2014,Suppressed
+16,Idaho,2015,Suppressed
+16,Idaho,2016,Suppressed
+16,Idaho,2017,Suppressed
+16,Idaho,2018,Suppressed
+16,Idaho,2019,Suppressed
+16,Idaho,2020,Suppressed
+16,Idaho,2021,10
+16,Idaho,2022,Suppressed
+17,Illinois,2000,10
+17,Illinois,2001,38
+17,Illinois,2002,50
+17,Illinois,2003,13
+17,Illinois,2004,Suppressed
+17,Illinois,2005,13
+17,Illinois,2006,49
+17,Illinois,2007,16
+17,Illinois,2008,Suppressed
+17,Illinois,2009,19
+17,Illinois,2010,14
+17,Illinois,2011,50
+17,Illinois,2012,56
+17,Illinois,2013,23
+17,Illinois,2014,Suppressed
+17,Illinois,2015,12
+17,Illinois,2016,13
+17,Illinois,2017,12
+17,Illinois,2018,15
+17,Illinois,2019,16
+17,Illinois,2020,Suppressed
+17,Illinois,2021,11
+17,Illinois,2022,35
+18,Indiana,2000,Suppressed
+18,Indiana,2001,Suppressed
+18,Indiana,2002,Suppressed
+18,Indiana,2003,Suppressed
+18,Indiana,2004,Suppressed
+18,Indiana,2005,Suppressed
+18,Indiana,2006,11
+18,Indiana,2007,Suppressed
+18,Indiana,2008,0
+18,Indiana,2009,Suppressed
+18,Indiana,2010,Suppressed
+18,Indiana,2011,20
+18,Indiana,2012,23
+18,Indiana,2013,Suppressed
+18,Indiana,2014,Suppressed
+18,Indiana,2015,Suppressed
+18,Indiana,2016,Suppressed
+18,Indiana,2017,Suppressed
+18,Indiana,2018,12
+18,Indiana,2019,12
+18,Indiana,2020,Suppressed
+18,Indiana,2021,11
+18,Indiana,2022,21
+19,Iowa,2000,Suppressed
+19,Iowa,2001,Suppressed
+19,Iowa,2002,Suppressed
+19,Iowa,2003,Suppressed
+19,Iowa,2004,Suppressed
+19,Iowa,2005,Suppressed
+19,Iowa,2006,Suppressed
+19,Iowa,2007,Suppressed
+19,Iowa,2008,0
+19,Iowa,2009,Suppressed
+19,Iowa,2010,Suppressed
+19,Iowa,2011,Suppressed
+19,Iowa,2012,10
+19,Iowa,2013,Suppressed
+19,Iowa,2014,Suppressed
+19,Iowa,2015,Suppressed
+19,Iowa,2016,Suppressed
+19,Iowa,2017,Suppressed
+19,Iowa,2018,Suppressed
+19,Iowa,2019,Suppressed
+19,Iowa,2020,Suppressed
+19,Iowa,2021,Suppressed
+19,Iowa,2022,Suppressed
+20,Kansas,2000,Suppressed
+20,Kansas,2001,Suppressed
+20,Kansas,2002,Suppressed
+20,Kansas,2003,Suppressed
+20,Kansas,2004,Suppressed
+20,Kansas,2005,Suppressed
+20,Kansas,2006,20
+20,Kansas,2007,12
+20,Kansas,2008,Suppressed
+20,Kansas,2009,11
+20,Kansas,2010,Suppressed
+20,Kansas,2011,37
+20,Kansas,2012,11
+20,Kansas,2013,Suppressed
+20,Kansas,2014,Suppressed
+20,Kansas,2015,Suppressed
+20,Kansas,2016,Suppressed
+20,Kansas,2017,Suppressed
+20,Kansas,2018,Suppressed
+20,Kansas,2019,Suppressed
+20,Kansas,2020,Suppressed
+20,Kansas,2021,Suppressed
+20,Kansas,2022,16
+21,Kentucky,2000,Suppressed
+21,Kentucky,2001,Suppressed
+21,Kentucky,2002,Suppressed
+21,Kentucky,2003,Suppressed
+21,Kentucky,2004,Suppressed
+21,Kentucky,2005,Suppressed
+21,Kentucky,2006,Suppressed
+21,Kentucky,2007,10
+21,Kentucky,2008,Suppressed
+21,Kentucky,2009,Suppressed
+21,Kentucky,2010,15
+21,Kentucky,2011,17
+21,Kentucky,2012,Suppressed
+21,Kentucky,2013,Suppressed
+21,Kentucky,2014,Suppressed
+21,Kentucky,2015,Suppressed
+21,Kentucky,2016,Suppressed
+21,Kentucky,2017,Suppressed
+21,Kentucky,2018,10
+21,Kentucky,2019,Suppressed
+21,Kentucky,2020,Suppressed
+21,Kentucky,2021,Suppressed
+21,Kentucky,2022,11
+22,Louisiana,2000,23
+22,Louisiana,2001,10
+22,Louisiana,2002,Suppressed
+22,Louisiana,2003,Suppressed
+22,Louisiana,2004,Suppressed
+22,Louisiana,2005,17
+22,Louisiana,2006,12
+22,Louisiana,2007,Suppressed
+22,Louisiana,2008,Suppressed
+22,Louisiana,2009,10
+22,Louisiana,2010,18
+22,Louisiana,2011,17
+22,Louisiana,2012,13
+22,Louisiana,2013,Suppressed
+22,Louisiana,2014,Suppressed
+22,Louisiana,2015,10
+22,Louisiana,2016,11
+22,Louisiana,2017,Suppressed
+22,Louisiana,2018,20
+22,Louisiana,2019,12
+22,Louisiana,2020,14
+22,Louisiana,2021,37
+22,Louisiana,2022,30
+23,Maine,2000,Suppressed
+23,Maine,2001,0
+23,Maine,2002,Suppressed
+23,Maine,2003,Suppressed
+23,Maine,2004,0
+23,Maine,2005,Suppressed
+23,Maine,2006,Suppressed
+23,Maine,2007,0
+23,Maine,2008,0
+23,Maine,2009,0
+23,Maine,2010,Suppressed
+23,Maine,2011,0
+23,Maine,2012,Suppressed
+23,Maine,2013,Suppressed
+23,Maine,2014,0
+23,Maine,2015,0
+23,Maine,2016,Suppressed
+23,Maine,2017,0
+23,Maine,2018,Suppressed
+23,Maine,2019,Suppressed
+23,Maine,2020,0
+23,Maine,2021,Suppressed
+23,Maine,2022,0
+24,Maryland,2000,Suppressed
+24,Maryland,2001,16
+24,Maryland,2002,58
+24,Maryland,2003,Suppressed
+24,Maryland,2004,Suppressed
+24,Maryland,2005,46
+24,Maryland,2006,44
+24,Maryland,2007,20
+24,Maryland,2008,18
+24,Maryland,2009,Suppressed
+24,Maryland,2010,34
+24,Maryland,2011,34
+24,Maryland,2012,43
+24,Maryland,2013,17
+24,Maryland,2014,Suppressed
+24,Maryland,2015,Suppressed
+24,Maryland,2016,29
+24,Maryland,2017,Suppressed
+24,Maryland,2018,30
+24,Maryland,2019,25
+24,Maryland,2020,28
+24,Maryland,2021,19
+24,Maryland,2022,13
+25,Massachusetts,2000,Suppressed
+25,Massachusetts,2001,Suppressed
+25,Massachusetts,2002,Suppressed
+25,Massachusetts,2003,Suppressed
+25,Massachusetts,2004,Suppressed
+25,Massachusetts,2005,Suppressed
+25,Massachusetts,2006,Suppressed
+25,Massachusetts,2007,0
+25,Massachusetts,2008,0
+25,Massachusetts,2009,0
+25,Massachusetts,2010,Suppressed
+25,Massachusetts,2011,Suppressed
+25,Massachusetts,2012,0
+25,Massachusetts,2013,Suppressed
+25,Massachusetts,2014,Suppressed
+25,Massachusetts,2015,0
+25,Massachusetts,2016,Suppressed
+25,Massachusetts,2017,Suppressed
+25,Massachusetts,2018,Suppressed
+25,Massachusetts,2019,Suppressed
+25,Massachusetts,2020,Suppressed
+25,Massachusetts,2021,Suppressed
+25,Massachusetts,2022,Suppressed
+26,Michigan,2000,Suppressed
+26,Michigan,2001,16
+26,Michigan,2002,11
+26,Michigan,2003,Suppressed
+26,Michigan,2004,Suppressed
+26,Michigan,2005,Suppressed
+26,Michigan,2006,20
+26,Michigan,2007,Suppressed
+26,Michigan,2008,Suppressed
+26,Michigan,2009,Suppressed
+26,Michigan,2010,Suppressed
+26,Michigan,2011,10
+26,Michigan,2012,13
+26,Michigan,2013,13
+26,Michigan,2014,Suppressed
+26,Michigan,2015,Suppressed
+26,Michigan,2016,Suppressed
+26,Michigan,2017,Suppressed
+26,Michigan,2018,10
+26,Michigan,2019,Suppressed
+26,Michigan,2020,12
+26,Michigan,2021,12
+26,Michigan,2022,16
+27,Minnesota,2000,Suppressed
+27,Minnesota,2001,19
+27,Minnesota,2002,0
+27,Minnesota,2003,0
+27,Minnesota,2004,Suppressed
+27,Minnesota,2005,Suppressed
+27,Minnesota,2006,Suppressed
+27,Minnesota,2007,Suppressed
+27,Minnesota,2008,Suppressed
+27,Minnesota,2009,Suppressed
+27,Minnesota,2010,0
+27,Minnesota,2011,Suppressed
+27,Minnesota,2012,11
+27,Minnesota,2013,Suppressed
+27,Minnesota,2014,Suppressed
+27,Minnesota,2015,Suppressed
+27,Minnesota,2016,0
+27,Minnesota,2017,Suppressed
+27,Minnesota,2018,Suppressed
+27,Minnesota,2019,Suppressed
+27,Minnesota,2020,Suppressed
+27,Minnesota,2021,Suppressed
+27,Minnesota,2022,Suppressed
+28,Mississippi,2000,18
+28,Mississippi,2001,Suppressed
+28,Mississippi,2002,Suppressed
+28,Mississippi,2003,10
+28,Mississippi,2004,Suppressed
+28,Mississippi,2005,12
+28,Mississippi,2006,12
+28,Mississippi,2007,11
+28,Mississippi,2008,Suppressed
+28,Mississippi,2009,12
+28,Mississippi,2010,33
+28,Mississippi,2011,21
+28,Mississippi,2012,16
+28,Mississippi,2013,Suppressed
+28,Mississippi,2014,Suppressed
+28,Mississippi,2015,Suppressed
+28,Mississippi,2016,11
+28,Mississippi,2017,Suppressed
+28,Mississippi,2018,14
+28,Mississippi,2019,11
+28,Mississippi,2020,Suppressed
+28,Mississippi,2021,Suppressed
+28,Mississippi,2022,18
+29,Missouri,2000,20
+29,Missouri,2001,36
+29,Missouri,2002,27
+29,Missouri,2003,18
+29,Missouri,2004,Suppressed
+29,Missouri,2005,23
+29,Missouri,2006,19
+29,Missouri,2007,38
+29,Missouri,2008,Suppressed
+29,Missouri,2009,14
+29,Missouri,2010,25
+29,Missouri,2011,46
+29,Missouri,2012,50
+29,Missouri,2013,15
+29,Missouri,2014,12
+29,Missouri,2015,14
+29,Missouri,2016,23
+29,Missouri,2017,18
+29,Missouri,2018,25
+29,Missouri,2019,11
+29,Missouri,2020,Suppressed
+29,Missouri,2021,16
+29,Missouri,2022,28
+30,Montana,2000,Suppressed
+30,Montana,2001,Suppressed
+30,Montana,2002,Suppressed
+30,Montana,2003,Suppressed
+30,Montana,2004,0
+30,Montana,2005,Suppressed
+30,Montana,2006,Suppressed
+30,Montana,2007,0
+30,Montana,2008,0
+30,Montana,2009,0
+30,Montana,2010,Suppressed
+30,Montana,2011,Suppressed
+30,Montana,2012,Suppressed
+30,Montana,2013,0
+30,Montana,2014,Suppressed
+30,Montana,2015,Suppressed
+30,Montana,2016,0
+30,Montana,2017,Suppressed
+30,Montana,2018,Suppressed
+30,Montana,2019,Suppressed
+30,Montana,2020,Suppressed
+30,Montana,2021,Suppressed
+30,Montana,2022,Suppressed
+31,Nebraska,2000,0
+31,Nebraska,2001,Suppressed
+31,Nebraska,2002,Suppressed
+31,Nebraska,2003,Suppressed
+31,Nebraska,2004,Suppressed
+31,Nebraska,2005,Suppressed
+31,Nebraska,2006,Suppressed
+31,Nebraska,2007,0
+31,Nebraska,2008,Suppressed
+31,Nebraska,2009,Suppressed
+31,Nebraska,2010,Suppressed
+31,Nebraska,2011,Suppressed
+31,Nebraska,2012,10
+31,Nebraska,2013,Suppressed
+31,Nebraska,2014,Suppressed
+31,Nebraska,2015,0
+31,Nebraska,2016,Suppressed
+31,Nebraska,2017,Suppressed
+31,Nebraska,2018,Suppressed
+31,Nebraska,2019,Suppressed
+31,Nebraska,2020,Suppressed
+31,Nebraska,2021,Suppressed
+31,Nebraska,2022,Suppressed
+32,Nevada,2000,Suppressed
+32,Nevada,2001,19
+32,Nevada,2002,29
+32,Nevada,2003,21
+32,Nevada,2004,Suppressed
+32,Nevada,2005,43
+32,Nevada,2006,31
+32,Nevada,2007,24
+32,Nevada,2008,33
+32,Nevada,2009,16
+32,Nevada,2010,38
+32,Nevada,2011,22
+32,Nevada,2012,18
+32,Nevada,2013,79
+32,Nevada,2014,28
+32,Nevada,2015,53
+32,Nevada,2016,84
+32,Nevada,2017,138
+32,Nevada,2018,150
+32,Nevada,2019,86
+32,Nevada,2020,100
+32,Nevada,2021,165
+32,Nevada,2022,115
+33,New Hampshire,2000,0
+33,New Hampshire,2001,Suppressed
+33,New Hampshire,2002,Suppressed
+33,New Hampshire,2003,0
+33,New Hampshire,2004,0
+33,New Hampshire,2005,0
+33,New Hampshire,2006,0
+33,New Hampshire,2007,Suppressed
+33,New Hampshire,2008,Suppressed
+33,New Hampshire,2009,0
+33,New Hampshire,2010,Suppressed
+33,New Hampshire,2011,0
+33,New Hampshire,2012,Suppressed
+33,New Hampshire,2013,Suppressed
+33,New Hampshire,2014,0
+33,New Hampshire,2015,0
+33,New Hampshire,2016,0
+33,New Hampshire,2017,0
+33,New Hampshire,2018,0
+33,New Hampshire,2019,Suppressed
+33,New Hampshire,2020,Suppressed
+33,New Hampshire,2021,Suppressed
+33,New Hampshire,2022,Suppressed
+34,New Jersey,2000,Suppressed
+34,New Jersey,2001,Suppressed
+34,New Jersey,2002,16
+34,New Jersey,2003,Suppressed
+34,New Jersey,2004,Suppressed
+34,New Jersey,2005,Suppressed
+34,New Jersey,2006,17
+34,New Jersey,2007,Suppressed
+34,New Jersey,2008,10
+34,New Jersey,2009,0
+34,New Jersey,2010,Suppressed
+34,New Jersey,2011,16
+34,New Jersey,2012,Suppressed
+34,New Jersey,2013,Suppressed
+34,New Jersey,2014,0
+34,New Jersey,2015,Suppressed
+34,New Jersey,2016,Suppressed
+34,New Jersey,2017,Suppressed
+34,New Jersey,2018,Suppressed
+34,New Jersey,2019,Suppressed
+34,New Jersey,2020,Suppressed
+34,New Jersey,2021,10
+34,New Jersey,2022,Suppressed
+35,New Mexico,2000,0
+35,New Mexico,2001,Suppressed
+35,New Mexico,2002,Suppressed
+35,New Mexico,2003,Suppressed
+35,New Mexico,2004,Suppressed
+35,New Mexico,2005,Suppressed
+35,New Mexico,2006,Suppressed
+35,New Mexico,2007,Suppressed
+35,New Mexico,2008,Suppressed
+35,New Mexico,2009,Suppressed
+35,New Mexico,2010,Suppressed
+35,New Mexico,2011,Suppressed
+35,New Mexico,2012,Suppressed
+35,New Mexico,2013,Suppressed
+35,New Mexico,2014,Suppressed
+35,New Mexico,2015,Suppressed
+35,New Mexico,2016,10
+35,New Mexico,2017,Suppressed
+35,New Mexico,2018,Suppressed
+35,New Mexico,2019,Suppressed
+35,New Mexico,2020,12
+35,New Mexico,2021,16
+35,New Mexico,2022,16
+36,New York,2000,Suppressed
+36,New York,2001,15
+36,New York,2002,12
+36,New York,2003,Suppressed
+36,New York,2004,Suppressed
+36,New York,2005,13
+36,New York,2006,59
+36,New York,2007,Suppressed
+36,New York,2008,17
+36,New York,2009,Suppressed
+36,New York,2010,26
+36,New York,2011,44
+36,New York,2012,15
+36,New York,2013,42
+36,New York,2014,Suppressed
+36,New York,2015,Suppressed
+36,New York,2016,11
+36,New York,2017,13
+36,New York,2018,17
+36,New York,2019,26
+36,New York,2020,13
+36,New York,2021,16
+36,New York,2022,15
+37,North Carolina,2000,Suppressed
+37,North Carolina,2001,Suppressed
+37,North Carolina,2002,Suppressed
+37,North Carolina,2003,Suppressed
+37,North Carolina,2004,Suppressed
+37,North Carolina,2005,18
+37,North Carolina,2006,Suppressed
+37,North Carolina,2007,14
+37,North Carolina,2008,22
+37,North Carolina,2009,Suppressed
+37,North Carolina,2010,13
+37,North Carolina,2011,13
+37,North Carolina,2012,14
+37,North Carolina,2013,Suppressed
+37,North Carolina,2014,Suppressed
+37,North Carolina,2015,11
+37,North Carolina,2016,14
+37,North Carolina,2017,19
+37,North Carolina,2018,Suppressed
+37,North Carolina,2019,13
+37,North Carolina,2020,17
+37,North Carolina,2021,12
+37,North Carolina,2022,20
+38,North Dakota,2000,0
+38,North Dakota,2001,Suppressed
+38,North Dakota,2002,0
+38,North Dakota,2003,Suppressed
+38,North Dakota,2004,0
+38,North Dakota,2005,Suppressed
+38,North Dakota,2006,Suppressed
+38,North Dakota,2007,Suppressed
+38,North Dakota,2008,0
+38,North Dakota,2009,0
+38,North Dakota,2010,0
+38,North Dakota,2011,0
+38,North Dakota,2012,Suppressed
+38,North Dakota,2013,Suppressed
+38,North Dakota,2014,0
+38,North Dakota,2015,0
+38,North Dakota,2016,0
+38,North Dakota,2017,Suppressed
+38,North Dakota,2018,Suppressed
+38,North Dakota,2019,0
+38,North Dakota,2020,Suppressed
+38,North Dakota,2021,0
+38,North Dakota,2022,Suppressed
+39,Ohio,2000,Suppressed
+39,Ohio,2001,Suppressed
+39,Ohio,2002,16
+39,Ohio,2003,Suppressed
+39,Ohio,2004,0
+39,Ohio,2005,13
+39,Ohio,2006,13
+39,Ohio,2007,12
+39,Ohio,2008,Suppressed
+39,Ohio,2009,Suppressed
+39,Ohio,2010,11
+39,Ohio,2011,17
+39,Ohio,2012,17
+39,Ohio,2013,Suppressed
+39,Ohio,2014,Suppressed
+39,Ohio,2015,Suppressed
+39,Ohio,2016,Suppressed
+39,Ohio,2017,12
+39,Ohio,2018,18
+39,Ohio,2019,11
+39,Ohio,2020,19
+39,Ohio,2021,14
+39,Ohio,2022,12
+40,Oklahoma,2000,14
+40,Oklahoma,2001,21
+40,Oklahoma,2002,Suppressed
+40,Oklahoma,2003,12
+40,Oklahoma,2004,Suppressed
+40,Oklahoma,2005,16
+40,Oklahoma,2006,38
+40,Oklahoma,2007,Suppressed
+40,Oklahoma,2008,Suppressed
+40,Oklahoma,2009,17
+40,Oklahoma,2010,18
+40,Oklahoma,2011,43
+40,Oklahoma,2012,18
+40,Oklahoma,2013,Suppressed
+40,Oklahoma,2014,Suppressed
+40,Oklahoma,2015,14
+40,Oklahoma,2016,20
+40,Oklahoma,2017,10
+40,Oklahoma,2018,Suppressed
+40,Oklahoma,2019,13
+40,Oklahoma,2020,14
+40,Oklahoma,2021,13
+40,Oklahoma,2022,35
+41,Oregon,2000,0
+41,Oregon,2001,Suppressed
+41,Oregon,2002,Suppressed
+41,Oregon,2003,Suppressed
+41,Oregon,2004,Suppressed
+41,Oregon,2005,Suppressed
+41,Oregon,2006,Suppressed
+41,Oregon,2007,Suppressed
+41,Oregon,2008,Suppressed
+41,Oregon,2009,Suppressed
+41,Oregon,2010,Suppressed
+41,Oregon,2011,Suppressed
+41,Oregon,2012,Suppressed
+41,Oregon,2013,Suppressed
+41,Oregon,2014,Suppressed
+41,Oregon,2015,Suppressed
+41,Oregon,2016,Suppressed
+41,Oregon,2017,Suppressed
+41,Oregon,2018,Suppressed
+41,Oregon,2019,Suppressed
+41,Oregon,2020,Suppressed
+41,Oregon,2021,133
+41,Oregon,2022,24
+42,Pennsylvania,2000,21
+42,Pennsylvania,2001,37
+42,Pennsylvania,2002,56
+42,Pennsylvania,2003,18
+42,Pennsylvania,2004,Suppressed
+42,Pennsylvania,2005,37
+42,Pennsylvania,2006,50
+42,Pennsylvania,2007,12
+42,Pennsylvania,2008,33
+42,Pennsylvania,2009,Suppressed
+42,Pennsylvania,2010,34
+42,Pennsylvania,2011,55
+42,Pennsylvania,2012,23
+42,Pennsylvania,2013,11
+42,Pennsylvania,2014,Suppressed
+42,Pennsylvania,2015,Suppressed
+42,Pennsylvania,2016,20
+42,Pennsylvania,2017,Suppressed
+42,Pennsylvania,2018,29
+42,Pennsylvania,2019,23
+42,Pennsylvania,2020,18
+42,Pennsylvania,2021,23
+42,Pennsylvania,2022,34
+44,Rhode Island,2000,0
+44,Rhode Island,2001,Suppressed
+44,Rhode Island,2002,10
+44,Rhode Island,2003,Suppressed
+44,Rhode Island,2004,0
+44,Rhode Island,2005,0
+44,Rhode Island,2006,0
+44,Rhode Island,2007,0
+44,Rhode Island,2008,Suppressed
+44,Rhode Island,2009,Suppressed
+44,Rhode Island,2010,Suppressed
+44,Rhode Island,2011,0
+44,Rhode Island,2012,0
+44,Rhode Island,2013,Suppressed
+44,Rhode Island,2014,Suppressed
+44,Rhode Island,2015,0
+44,Rhode Island,2016,Suppressed
+44,Rhode Island,2017,0
+44,Rhode Island,2018,Suppressed
+44,Rhode Island,2019,Suppressed
+44,Rhode Island,2020,0
+44,Rhode Island,2021,Suppressed
+44,Rhode Island,2022,0
+45,South Carolina,2000,Suppressed
+45,South Carolina,2001,Suppressed
+45,South Carolina,2002,Suppressed
+45,South Carolina,2003,Suppressed
+45,South Carolina,2004,Suppressed
+45,South Carolina,2005,Suppressed
+45,South Carolina,2006,Suppressed
+45,South Carolina,2007,22
+45,South Carolina,2008,Suppressed
+45,South Carolina,2009,Suppressed
+45,South Carolina,2010,14
+45,South Carolina,2011,10
+45,South Carolina,2012,10
+45,South Carolina,2013,Suppressed
+45,South Carolina,2014,Suppressed
+45,South Carolina,2015,13
+45,South Carolina,2016,12
+45,South Carolina,2017,10
+45,South Carolina,2018,23
+45,South Carolina,2019,Suppressed
+45,South Carolina,2020,13
+45,South Carolina,2021,16
+45,South Carolina,2022,22
+46,South Dakota,2000,Suppressed
+46,South Dakota,2001,Suppressed
+46,South Dakota,2002,Suppressed
+46,South Dakota,2003,Suppressed
+46,South Dakota,2004,0
+46,South Dakota,2005,Suppressed
+46,South Dakota,2006,Suppressed
+46,South Dakota,2007,Suppressed
+46,South Dakota,2008,0
+46,South Dakota,2009,Suppressed
+46,South Dakota,2010,Suppressed
+46,South Dakota,2011,Suppressed
+46,South Dakota,2012,0
+46,South Dakota,2013,Suppressed
+46,South Dakota,2014,Suppressed
+46,South Dakota,2015,Suppressed
+46,South Dakota,2016,Suppressed
+46,South Dakota,2017,Suppressed
+46,South Dakota,2018,Suppressed
+46,South Dakota,2019,Suppressed
+46,South Dakota,2020,Suppressed
+46,South Dakota,2021,Suppressed
+46,South Dakota,2022,Suppressed
+47,Tennessee,2000,10
+47,Tennessee,2001,Suppressed
+47,Tennessee,2002,10
+47,Tennessee,2003,Suppressed
+47,Tennessee,2004,Suppressed
+47,Tennessee,2005,14
+47,Tennessee,2006,12
+47,Tennessee,2007,23
+47,Tennessee,2008,12
+47,Tennessee,2009,16
+47,Tennessee,2010,44
+47,Tennessee,2011,20
+47,Tennessee,2012,25
+47,Tennessee,2013,Suppressed
+47,Tennessee,2014,Suppressed
+47,Tennessee,2015,22
+47,Tennessee,2016,18
+47,Tennessee,2017,14
+47,Tennessee,2018,20
+47,Tennessee,2019,13
+47,Tennessee,2020,11
+47,Tennessee,2021,18
+47,Tennessee,2022,46
+48,Texas,2000,142
+48,Texas,2001,59
+48,Texas,2002,56
+48,Texas,2003,64
+48,Texas,2004,54
+48,Texas,2005,92
+48,Texas,2006,77
+48,Texas,2007,27
+48,Texas,2008,47
+48,Texas,2009,74
+48,Texas,2010,88
+48,Texas,2011,179
+48,Texas,2012,55
+48,Texas,2013,55
+48,Texas,2014,34
+48,Texas,2015,57
+48,Texas,2016,80
+48,Texas,2017,47
+48,Texas,2018,80
+48,Texas,2019,95
+48,Texas,2020,82
+48,Texas,2021,90
+48,Texas,2022,200
+49,Utah,2000,Suppressed
+49,Utah,2001,0
+49,Utah,2002,Suppressed
+49,Utah,2003,Suppressed
+49,Utah,2004,0
+49,Utah,2005,Suppressed
+49,Utah,2006,0
+49,Utah,2007,Suppressed
+49,Utah,2008,Suppressed
+49,Utah,2009,Suppressed
+49,Utah,2010,Suppressed
+49,Utah,2011,Suppressed
+49,Utah,2012,Suppressed
+49,Utah,2013,Suppressed
+49,Utah,2014,Suppressed
+49,Utah,2015,Suppressed
+49,Utah,2016,Suppressed
+49,Utah,2017,Suppressed
+49,Utah,2018,Suppressed
+49,Utah,2019,Suppressed
+49,Utah,2020,Suppressed
+49,Utah,2021,Suppressed
+49,Utah,2022,Suppressed
+50,Vermont,2000,0
+50,Vermont,2001,Suppressed
+50,Vermont,2002,Suppressed
+50,Vermont,2003,0
+50,Vermont,2004,0
+50,Vermont,2005,0
+50,Vermont,2006,Suppressed
+50,Vermont,2007,0
+50,Vermont,2008,Suppressed
+50,Vermont,2009,Suppressed
+50,Vermont,2010,Suppressed
+50,Vermont,2011,0
+50,Vermont,2012,0
+50,Vermont,2013,Suppressed
+50,Vermont,2014,0
+50,Vermont,2015,Suppressed
+50,Vermont,2016,0
+50,Vermont,2017,Suppressed
+50,Vermont,2018,Suppressed
+50,Vermont,2019,0
+50,Vermont,2020,Suppressed
+50,Vermont,2021,Suppressed
+50,Vermont,2022,Suppressed
+51,Virginia,2000,Suppressed
+51,Virginia,2001,Suppressed
+51,Virginia,2002,Suppressed
+51,Virginia,2003,Suppressed
+51,Virginia,2004,Suppressed
+51,Virginia,2005,11
+51,Virginia,2006,12
+51,Virginia,2007,Suppressed
+51,Virginia,2008,14
+51,Virginia,2009,Suppressed
+51,Virginia,2010,14
+51,Virginia,2011,11
+51,Virginia,2012,24
+51,Virginia,2013,Suppressed
+51,Virginia,2014,Suppressed
+51,Virginia,2015,13
+51,Virginia,2016,Suppressed
+51,Virginia,2017,Suppressed
+51,Virginia,2018,16
+51,Virginia,2019,15
+51,Virginia,2020,11
+51,Virginia,2021,16
+51,Virginia,2022,Suppressed
+53,Washington,2000,Suppressed
+53,Washington,2001,Suppressed
+53,Washington,2002,Suppressed
+53,Washington,2003,Suppressed
+53,Washington,2004,0
+53,Washington,2005,Suppressed
+53,Washington,2006,12
+53,Washington,2007,Suppressed
+53,Washington,2008,Suppressed
+53,Washington,2009,11
+53,Washington,2010,Suppressed
+53,Washington,2011,Suppressed
+53,Washington,2012,Suppressed
+53,Washington,2013,Suppressed
+53,Washington,2014,Suppressed
+53,Washington,2015,Suppressed
+53,Washington,2016,11
+53,Washington,2017,Suppressed
+53,Washington,2018,Suppressed
+53,Washington,2019,Suppressed
+53,Washington,2020,Suppressed
+53,Washington,2021,170
+53,Washington,2022,25
+54,West Virginia,2000,0
+54,West Virginia,2001,Suppressed
+54,West Virginia,2002,Suppressed
+54,West Virginia,2003,0
+54,West Virginia,2004,0
+54,West Virginia,2005,0
+54,West Virginia,2006,Suppressed
+54,West Virginia,2007,Suppressed
+54,West Virginia,2008,Suppressed
+54,West Virginia,2009,Suppressed
+54,West Virginia,2010,Suppressed
+54,West Virginia,2011,Suppressed
+54,West Virginia,2012,Suppressed
+54,West Virginia,2013,Suppressed
+54,West Virginia,2014,0
+54,West Virginia,2015,0
+54,West Virginia,2016,0
+54,West Virginia,2017,0
+54,West Virginia,2018,Suppressed
+54,West Virginia,2019,Suppressed
+54,West Virginia,2020,Suppressed
+54,West Virginia,2021,0
+54,West Virginia,2022,Suppressed
+55,Wisconsin,2000,Suppressed
+55,Wisconsin,2001,20
+55,Wisconsin,2002,Suppressed
+55,Wisconsin,2003,Suppressed
+55,Wisconsin,2004,Suppressed
+55,Wisconsin,2005,11
+55,Wisconsin,2006,Suppressed
+55,Wisconsin,2007,Suppressed
+55,Wisconsin,2008,Suppressed
+55,Wisconsin,2009,Suppressed
+55,Wisconsin,2010,Suppressed
+55,Wisconsin,2011,Suppressed
+55,Wisconsin,2012,23
+55,Wisconsin,2013,11
+55,Wisconsin,2014,Suppressed
+55,Wisconsin,2015,Suppressed
+55,Wisconsin,2016,Suppressed
+55,Wisconsin,2017,Suppressed
+55,Wisconsin,2018,Suppressed
+55,Wisconsin,2019,Suppressed
+55,Wisconsin,2020,Suppressed
+55,Wisconsin,2021,13
+55,Wisconsin,2022,18
+56,Wyoming,2000,Suppressed
+56,Wyoming,2001,0
+56,Wyoming,2002,Suppressed
+56,Wyoming,2003,0
+56,Wyoming,2004,0
+56,Wyoming,2005,0
+56,Wyoming,2006,Suppressed
+56,Wyoming,2007,0
+56,Wyoming,2008,0
+56,Wyoming,2009,0
+56,Wyoming,2010,Suppressed
+56,Wyoming,2011,Suppressed
+56,Wyoming,2012,Suppressed
+56,Wyoming,2013,Suppressed
+56,Wyoming,2014,0
+56,Wyoming,2015,Suppressed
+56,Wyoming,2016,0
+56,Wyoming,2017,Suppressed
+56,Wyoming,2018,Suppressed
+56,Wyoming,2019,Suppressed
+56,Wyoming,2020,Suppressed
+56,Wyoming,2021,Suppressed
+56,Wyoming,2022,0
