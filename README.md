@@ -40,11 +40,17 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 <summary><b>Download Instructions</b></summary>
 
 1.⁠ ⁠Navigate to [CDC EPH Tracking Data Explorer](https://ephtracking.cdc.gov/DataExplorer/)
+
 2.⁠ ⁠Select *"Heat and Health Related Illness"*
+
 3.⁠ ⁠Select *"Historical Temperature and Heat Index"*
+
 4.⁠ ⁠Choose *"Annual Number of Extreme Heat Events (Full Year)"*
+
 5.⁠ ⁠Set Geography to *"National by County"*
+
 6.⁠ ⁠Select years *2000-2023*
+
 7.⁠ ⁠In Advanced Options:
    - Heat Metric: Daily Maximum Temperature
    - Minimum Duration Days: 2 Days
@@ -66,12 +72,19 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 <summary><b>Download Instructions</b></summary>
 
 1.⁠ ⁠Navigate to [CDC EPH Tracking Data Explorer](https://ephtracking.cdc.gov/DataExplorer/)
-2.⁠ ⁠Select *"Heat and Health Related Illness"*
+
+2.⁠ ⁠Select *"Heat and Health Related Illness"
+*
 3.⁠ ⁠Select *"Hospitalizations for HRI"*
+
 4.⁠ ⁠Choose *"Annual Number of Hospitalizations for HRI"*
+
 5.⁠ ⁠Set Geography to *"National by State"*
+
 6.⁠ ⁠Select years *2000-2023*
+
 7.⁠ ⁠In Advanced Options: Select all available filters
+
 </details>
 
 ---
@@ -89,12 +102,19 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 <summary><b>Download Instructions</b></summary>
 
 1.⁠ ⁠Navigate to [CDC EPH Tracking Data Explorer](https://ephtracking.cdc.gov/DataExplorer/)
+
 2.⁠ ⁠Select *"Heat and Health Related Illness"*
+
 3.⁠ ⁠Select *"Emergency Department Visits for HRI"*
-4.⁠ ⁠Choose *"Annual Number of Emergency Department Visits for HRI"*
+
+4.⁠ ⁠Choose *"Annual Number of Emergency Department Visits for HRI"
+*
 5.⁠ ⁠Set Geography to *"National by State"*
+
 6.⁠ ⁠Select years *2000-2023*
+
 7.⁠ ⁠In Advanced Options: Select all available filters
+
 </details>
 
 ---
@@ -103,20 +123,30 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 *Focus*: Deaths attributed to extreme heat
 
 *Configuration*:
+
 •⁠  ⁠*Measure*: Annual Number of Heat-Related Deaths
+
 •⁠  ⁠*Geography*: National by State
+
 •⁠  ⁠*Time Period*: 2000-2023
+
 •⁠  ⁠*Advanced Options*: None
 
 <details>
 <summary><b>Download Instructions</b></summary>
 
 1.⁠ ⁠Navigate to [CDC EPH Tracking Data Explorer](https://ephtracking.cdc.gov/DataExplorer/)
+
 2.⁠ ⁠Select *"Heat and Health Related Illness"*
+
 3.⁠ ⁠Select *"Mortality from HRI"*
+
 4.⁠ ⁠Choose *"Annual Number of Heat-Related Deaths"*
+
 5.⁠ ⁠Set Geography to *"National by State"*
+
 6.⁠ ⁠Select years *2000-2023*
+
 7.⁠ ⁠Advanced Options: None
 </details>
 
@@ -124,10 +154,14 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 
 ## 🛠️ Technologies Used
 
-•⁠  ⁠*R* - Statistical analysis and data manipulation
+•⁠  ⁠*R* - Statistical analysis and data manipulatio
+n
 •⁠  ⁠*Quarto* - Document generation and website publishing
+
 •⁠  ⁠*ggplot2* - Data visualization
+
 •⁠  ⁠*dplyr/tidyr* - Data wrangling
+
 •⁠  ⁠*GitHub Pages* - Project hosting
 
 ---
@@ -135,6 +169,7 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 ## 👥 Contributors
 
 •⁠  ⁠*Ishmeen Garewal*
+
 •⁠  ⁠*Khushi Advani*
 ---
 
@@ -143,7 +178,9 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 This project was completed as part of the *Exploratory Data Analysis and Visualization (EDAV)* course at Columbia University.
 
 *Institution*: Columbia University  
+
 *Program*: Master of Science in Data Science  
+
 *Semester*: Fall 2025
 
 ---
@@ -152,7 +189,9 @@ This project was completed as part of the *Exploratory Data Analysis and Visuali
 ## 🙏 Acknowledgments
 
 •⁠  ⁠*CDC Environmental Public Health Tracking Network* for providing comprehensive public health data
+
 •⁠  ⁠*Prof. Joyce Robbins* for her amazing template and guidance throughout the course and this project.
+
 •⁠  ⁠*Columbia University* for academic resources
 
 ---
