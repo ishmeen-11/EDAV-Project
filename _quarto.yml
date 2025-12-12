@@ -4,6 +4,8 @@ project:
 
 execute:
   echo: true
+  warning: false
+  messgae: false
 
 book:
   title: "Heat's Toll on Health"
