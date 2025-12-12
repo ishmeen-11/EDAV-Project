@@ -6,12 +6,12 @@ execute:
   echo: true
 
 book:
-  title: "Your Title (TBD)"
+  title: "Heat's Toll on Health"
   author:
     - Khushi Advani (ka3090)
     - Ishmeen Garewal (ig2548)
   repo-url: https://github.com/ishmeen-11/EDAV-Project.git
-  date: 11/17/2025
+  date: 12/11/2025
   page-footer:
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
@@ -24,7 +24,7 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme: cerulean
     code-fold: true
 
 

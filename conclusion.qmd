@@ -1,1 +1,19 @@
 # Conclusion
+
+Our analysis shows a troubling trend: Americans are becoming more vulnerable to heat. Acknowledging that our analysis has important limitations. We analyzed only 31 states with complete data, excluding 20 states. The 2019-2022 spikes may be influenced by COVID-19 through healthcare strain or reporting changes.The CDC suppresses 52% of death data for privacy when counts fall below 10, meaning true mortality is likely higher. Despite these challenges, below are some of our key observations:
+
+While heat events increased by 16% from 2000-2011 to 2012-2022, hospitalizations jumped by 32%, double the rate. The same amount of heat is now causing more health problems than it used to.
+
+The geographic patterns reveal extreme inequality. A handful of states drive the national death toll, with Arizona contributing nearly 3,000 deaths above average and California adding over 1,300. But the story isn't just about which states are hottest. Florida's hospitalizations exploded by 600% despite average heat exposure, driven by its large elderly population. Meanwhile, Kansas faces the highest heat exposure in our dataset but has kept hospitalizations flat for two decades, showing that successful adaptation is possible.
+
+The key finding is that heat exposure alone is a weak predictor of health outcomes. Heat events correlate with hospitalizations at only 0.29, while health outcomes correlate strongly with each other (0.78 between ER visits and hospitalizations). This might suggest that vulnerability factors like demographics, infrastructure, and healthcare access matter more than absolute temperature. States struggle not because they're the hottest, but because they can't protect vulnerable populations when heat hits. A future direction for this project would be to explore these variables further to analyze what are the true causes besides heat events which are leading to the increasing number of health realated illnesses we can observe.
+
+Age is clearly a critical risk factor. Adults 35-64 and seniors 65+ account for most heat-related hospitalizations, with severity increasing with age. This explains why Florida struggles despite its warm climate.
+
+The policy message is clear: heat preparedness can't be one-size-fits-all. Kansas proves adaptation works even in extreme heat, while Florida shows that warm climate doesn't guarantee good outcomes. As heat events intensify, states might required focused preparedness and planning for their specific vulnerabilities, which are broader than simply temperature-based responses.
+
+The widening gap between heat exposure and health impacts is a warning. Without investment in cooling centers, infrastructure, healthcare capacity, and support for vulnerable populations, the human cost will keep growing faster than the heat itself.
+
+Through this project we understood how important it is to conduct a thorough initial analyses of data and determine missing characteristic before forming the project direction. The data does not always show what is expected and how it is important to adapt your questions to what the data can actually answer rather than forcing interpretations. We learned that being transparent about limitations, like the 52% data suppression or population confounding in raw counts, makes the analysis stronger rather than weaker. Sometimes the most interesting findings come from what the data doesn't show or from unexpected patterns that challenge our initial assumptions about heat and health outcomes.
+
+

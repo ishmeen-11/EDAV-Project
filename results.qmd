@@ -23,9 +23,9 @@ library(ggrepel)
 
 Between 2000 and 2023, the CDC tracked over 74,000 extreme heat events across the United States—periods where temperatures exceeded 90°F for two or more consecutive days. These events translate directly into public health impacts: emergency room visits, hospitalizations, and deaths.
 
-We're working with four datasets from the CDC's Environmental Public Health Tracking Network covering extreme heat events, hospitalizations, ER visits, and deaths. While data exists for more states, we filtered down to 31 states that have complete reporting across all four datasets. This gives us a consistent picture of how heat exposure connects to health outcomes, though it does mean we're missing data from 20 states.
+We're working with four datasets from the CDC's Environmental Public Health Tracking Network covering extreme heat events, hospitalizations, ER visits, and deaths. While data exists for more states, we filtered down to 31 states that have complete reporting across all four datasets. This gives us a consistent picture of how heat exposure might connect to health outcomes, though it does mean we're missing data from 20 states.
 
-What we found is pretty clear: heat-related health problems aren't just increasing but that they're getting worse faster.
+What we found: heat-related health problems aren't just increasing but that they're getting worse faster.
 
 ```{r}
 # Load cleaned data
@@ -37,9 +37,9 @@ deaths <- read.csv("data_clean/deaths_clean.csv", stringsAsFactors = TRUE)
 
 ## Growing Crisis
 
-### All Three Health Outcomes Are Surging
+### All Three Health Outcomes Are Increasing
 
-First, let's look at how these health impacts have changed over the past two decades. Since we're comparing three very different metrics (ER visits happen way more often than deaths), we used indexing to put them on the same scale. For each outcome, we divided every year's value by the year 2000 value and multiplied by 100. This means year 2000 equals 100% for all three lines, and we can see the relative rate of change for each outcome.
+First, let's look at how these health impacts have changed over the past two decades. Since we're comparing three different metrics (ER visits happen way more often than deaths), we used indexing to put them on the same scale. For each outcome, we divided every year's value by the year 2000 value and multiplied by 100. This means year 2000 equals 100% for all three lines, and we can thus see the relative rate of change for each outcome.
 
 ```{r}
 # Combined health outcomes over time
@@ -79,9 +79,9 @@ ggplot(outcomes_indexed, aes(x = Year, y = index, color = outcome)) +
   scale_x_continuous(breaks = seq(2000, 2022, by = 4)) +
   labs(
     title = "Heat-Related Health Impacts Have Surged Since 2000",
-    subtitle = "All three outcomes indexed to baseline year (2000 = 100%)",
+    subtitle = "All three outcomes indexed to baseline year (Year 2000 = 100%)",
     x = NULL,
-    y = "Index (2000 = 100%)",
+    y = "Index (Year 2000 = 100%)",
     color = NULL,
     caption = "Note: Data covers 31 states with complete reporting across all datasets"
   ) +
@@ -97,11 +97,11 @@ ggplot(outcomes_indexed, aes(x = Year, y = index, color = outcome)) +
 ```
 All three outcomes have increased significantly since 2000, with ER visits roughly doubling and hospitalizations increasing substantially. ER visits show the most dramatic growth, spiking to over 700% of baseline in 2019, while hospitalizations have roughly doubled. The most striking pattern is in recent years, both ER visits and deaths surge to unprecedented levels between 2019 and 2022, suggesting the problem is accelerating rather than stabilizing.
 
-However, the dramatic spikes we see in 2019-2022—particularly ER visits reaching over 700% of baseline—raise an important question: could COVID-19 be influencing these patterns? The pandemic could affect heat-related health data in several ways: healthcare system strain making heat impacts more severe, changes in reporting practices, people staying home more without adequate cooling, or even coding complications where some cases were misattributed. This temporal overlap means we need to be cautious about interpreting the most recent years' trends as solely climate-driven.
+However, the dramatic spikes we see in 2019-2022—particularly ER visits reaching over 700% of baseline—raise an important question: could COVID-19 be influencing these patterns? The pandemic could affect heat-related health data in several ways: healthcare system strain making heat impacts more severe, changes in reporting practices, people staying home more without adequate cooling, or even certain complications leading to some cases being misattributed. We need to thus be cautious about interpreting the most recent years' trends as solely climate-driven.
 
 ### Heat Exposure and Health Impacts Move Together
 
-The surge in health outcomes suggests increased heat exposure, but we need to verify this connection directly. To compare heat events with hospitalizations (two metrics with completely different scales), we standardized both by converting them to z-scores. This shows how many standard deviations each year is from its average: when both lines spike at the same time, it confirms they're moving in sync.
+The surge in health outcomes suggests increased heat exposure, but we need to verify this connection directly. To compare heat events with hospitalizations, we standardized both by converting them to z-scores. This shows how many standard deviations each year is from its average: when both lines spike at the same time, it confirms they're moving in sync.
 
 ```{r}
 # Create combined dataset with annual aggregates
@@ -142,11 +142,11 @@ ggplot(combined_standardized, aes(x = Year, y = Standardized_Value, color = Metr
   theme_minimal(base_size = 12) +
   theme(
     plot.title = element_text(face = "bold", size = 14),
-    plot.subtitle = element_text(size = 10, color = "gray30"),
+    plot.subtitle = element_text(size = 10, color = "gray30", hjust = 0),
     legend.position = "top"
   )
 ```
-The two lines generally move together, with both showing an upward trend and co-occurring peaks in years like 2011. However, the relationship isn't perfectly synchronized. In 2018, for example, hospitalizations peaked while heat events remained near average, suggesting that factors beyond just heat exposure matter. This could reflect changes in population vulnerability, healthcare access, or reporting practices. The imperfect correlation points to an important reality: while heat exposure is a key driver of health impacts, local preparedness, demographics, and infrastructure also play crucial roles.
+The two lines generally move together, with both showing an upward trend and co-occurring peaks in years like 2011. However, the relationship isn't perfectly synchronized. In 2018, for example, hospitalizations peaked while heat events remained near average, suggesting that factors beyond just heat exposure matter. This could reflect changes in population vulnerability, healthcare access, or reporting practices. The imperfect correlation points to an important reality: while heat exposure is a key driver of health impacts, certain other factors such as local preparedness, demographics, and infrastructure likely also play crucial roles.
 
 ### The Problem Is Accelerating
 
@@ -197,13 +197,13 @@ ggplot(period_long, aes(x = metric, y = pct_change, fill = metric)) +
   ) +
   theme_minimal(base_size = 14) +
   theme(
-    plot.title = element_text(face = "bold", size = 16, margin = margin(b = 5)),
+    plot.title = element_text(face = "bold", size = 16, margin = margin(b = 5), hjust = 0),
     plot.subtitle = element_text(size = 11, hjust = 0, color = "gray30", margin = margin(b = 10)),
     panel.grid.major.x = element_blank(),
     panel.grid.minor = element_blank()
   )
 ```
-While both heat events and hospitalizations increased from the first period (2000-2011) to the second (2012-2022), the rates tell an important story about vulnerability. Heat events increased by 16%, but hospitalizations surged by 32%, double the rate of heat exposure growth. This gap suggests that the same amount of heat is causing more health impacts than it used to. Potential explanations include an aging population, increased urbanization and heat island effects, declining access to air conditioning or cooling centers, or changing outdoor work patterns. Whatever the cause, people are becoming more vulnerable to heat, not less, despite increased awareness of the risks.
+While both heat events and hospitalizations increased from the first period (2000-2011) to the second (2012-2022), the rates tell an important story about vulnerability. Heat events increased by 16%, but hospitalizations surged by 32%, double the rate of heat events' growth. This gap suggests that the same amount of heat is likely causing more health impacts than it used to. Potential explanations include an aging population, increased urbanization and heat island effects, declining access to air conditioning or cooling centers, or even due to Covid. Whatever the cause, people are becoming more vulnerable to heat, despite increased awareness of the risks.
 
 ## Geographic Inequality
 
@@ -211,7 +211,7 @@ The national trends mask significant geographic variation. To understand where t
 
 ### A Decade of Intensifying Heat in High-Burden States
 
-We identified the top 10 states by total heat events and created a heatmap showing how their exposure changed year by year. This reveals both which states consistently face the most heat and whether the problem is intensifying over time.
+We identified the top 10 states by total heat events and created a heatmap showing how their exposure to heat changed year by year. This reveals both which states consistently face the most heat and whether the problem is intensifying over time.
 
 ```{r}
 # Get top 10 states by total heat events
@@ -255,7 +255,7 @@ ggplot(heatmap_data, aes(x = Year, y = State, fill = heat_events)) +
   ) +
   theme_minimal(base_size = 13) +
   theme(
-    plot.title = element_text(face = "bold", size = 16, margin = margin(b = 5)),
+    plot.title = element_text(face = "bold", size = 16, margin = margin(b = 5), hjust = 0),
     plot.subtitle = element_text(size = 11, hjust = 0, color = "gray30", margin = margin(b = 10)),
     panel.grid = element_blank(),
     legend.position = "right",
@@ -332,15 +332,15 @@ ggplot(scatter_data, aes(x = heat_events, y = hospitalizations)) +
     plot.caption = element_text(size = 9, color = "gray50", hjust = 0, margin = margin(t = 10))
   )
 ```
-There's a positive relationship (r = 0.29), but it's weaker than expected, with significant scatter. The three outliers—Florida, California, and Arizona—all show high hospitalizations relative to heat exposure. However, we need to be cautious about interpreting this graph: these three outliers are also among the most populous states in our dataset. Florida has about 22 million people, California has 39 million, and Arizona has 7 million, while states like Kansas have only 3 million.
+There's a positive relationship (r = 0.29), but it's weaker than expected, with significant scatter. The three outliers—Florida, California, and Arizona—all show high hospitalizations relative to a lower level of heat exposure. However, we need to be cautious about interpreting this graph: these three outliers are also among the most populous states in our dataset. Florida has about 22 million people, California has 39 million, and Arizona has 7 million, while states like Kansas have only 3 million.
 
 This means we can't distinguish whether these states are outliers because they're worse at handling heat or simply because they have more people. A state with 10 times the population will naturally have more hospitalizations even if their per capita rate is identical. The weak overall correlation (r = 0.29) confirms that raw counts don't tell us much about state-level preparedness or vulnerability.
 
-This is exactly why we need the standardized comparison in the next section—by converting to z-scores, we can compare states on an equal footing regardless of population size.
+This is why we will look at a standardized comparison in the next section, so that we can compare states on an equal footing regardless of population size.
 
 ### State-Level Comparisons: Who's Managing Heat Better?
 
-We've seen which states have the most heat events, but raw counts don't tell us which states are handling heat effectively. By standardizing both heat events and hospitalizations (converting to z-scores), we can compare states on a level playing field regardless of their size or population.
+We've seen which states have the most heat events, but raw counts don't tell us which states are handling heat effectively. By standardizing both heat events and hospitalizations (converting to z-scores), we can compare states on the same level of.
 
 ```{r}
 
@@ -401,11 +401,11 @@ ggplot(cleveland_data_scaled, aes(x = Standardized_Count, y = State, color = Met
     plot.caption = element_text(size = 9, color = "gray50", hjust = 0, margin = margin(t = 10))
   )
 ```
-The standardized comparison reveals interesting mismatches between heat exposure and health impacts. Most states cluster around the diagonal where heat and hospitalizations track together, but several outliers stand out.
+The standardized comparison reveals interesting mismatches between heat exposure and health impacts. Most states cluster around the diagonal where heat and hospitalizations track together, but we also observe several outliers.
 
 Kansas sits at an extreme, more than 3 standard deviations above average for heat events but only about 1.5 standard deviations above average for hospitalizations. This suggests Kansas may be better adapted to handle extreme heat, possibly through infrastructure, public awareness campaigns, or population demographics that are less vulnerable.
 
-On the flip side, Florida shows the opposite pattern. Despite having heat exposure around the national average, Florida's hospitalizations are significantly elevated. This disproportionate health impact could reflect Florida's large elderly population, who are more vulnerable to heat stress, or it could indicate gaps in cooling access or heat preparedness programs. Given Florida's climate, you'd expect residents to be more adapted to heat, but the data suggests otherwise.
+On the flip side, Florida shows the opposite pattern. Despite having heat exposure around the national average, Florida's hospitalizations are significantly elevated. This disproportionate health impact could reflect Florida's large elderly population, who are more vulnerable to heat stress, or it could indicate gaps in cooling access or heat preparedness programs.
 
 California and Arizona also show hospitalizations exceeding what their heat exposure would predict, though to a lesser degree than Florida. States in the middle and lower left (like Maine, Vermont, Connecticut) have both low heat exposure and low health impacts, as expected.
 
@@ -454,7 +454,7 @@ The fixed scale reveals dramatically different state trajectories and explains t
 
 California and Missouri show more moderate but steady growth, roughly doubling from baseline. Both maintain consistent upward trends that explain their elevated hospitalization positions in the Cleveland plot.
 
-Kansas presents the most interesting pattern. Despite having the highest heat exposure in our entire dataset, hospitalizations have remained essentially flat over 23 years, hovering around the baseline. This temporal stability confirms what the Cleveland plot suggested; Kansas has successfully maintained its ability to handle extreme heat over time, whether through sustained infrastructure investment, effective public health programs, or an adapted population.
+Kansas presents the most interesting pattern. Despite having the highest heat exposure in our entire dataset, hospitalizations have remained essentially flat over 23 years, hovering around the baseline. This confirms what the Cleveland plot suggested; Kansas has successfully maintained its ability to handle extreme heat over time, whether through sustained infrastructure investment, effective public health programs, or an adapted population.
 
 Rhode Island shows high volatility with dramatic year-to-year swings but an overall upward trend, while Maine actually shows a decline, dropping below baseline in recent years. This decline explains Maine's position in the lower left of the Cleveland plot.
 
@@ -495,9 +495,9 @@ treemap(treemap_data,
 ```
 The states with the largest boxes (e.g., Florida, California, Arizona) are the primary drivers of absolute hospitalization numbers, regardless of their heat event count, highlighting that a small number of states carry the majority of the national burden. States with the darkest color (e.g., Kansas, Louisiana) have the highest exposure to extreme heat events.
 
-Florida has one of the largest boxes (high hospitalizations) but a mid-range color intensity (mid-range heat events). This pattern confirms the insight from the previous analysis: despite having a heat exposure around the national average, Florida has significantly elevated hospitalizations. This health impact is likely due to the state's large, vulnerable population, especially the elderly, or gaps in heat preparedness.
+Florida has one of the largest boxes but a mid-range color intensity. This pattern confirms the insight from the previous analysis: despite having a heat exposure around the national average, Florida has significantly elevated hospitalizations.
 
-Kansas has a dark, intense color (high heat events) but a relatively smaller box (lower hospitalizations). This suggests a strong level of adaptation; the state faces the worst heat exposure in the dataset but successfully maintains hospitalizations near the average. The smaller health impact despite high heat confirms that Kansas has maintained its ability to handle extreme heat over two decades
+Kansas has a dark, intense color but a relatively smaller box. This suggests a strong level of adaptation; the state faces the worst heat exposure in the dataset but successfully maintains hospitalizations near the average.
 
 ## Understanding Relationships
 
@@ -546,14 +546,16 @@ corrplot(cor_matrix,
          cl.cex = 1)
 ```
 The correlation matrix reveals a surprising pattern. While all three health outcomes show positive correlations with heat events, the relationships are surprisingly weak: hospitalizations (0.28), ER visits (0.37), and deaths (0.10). This confirms what we've seen throughout our analysis—heat exposure alone is a poor predictor of health impacts.
+
 What's more striking is the bottom-right triangle: the three health outcomes are strongly correlated with each other. Hospitalizations and ER visits show a 0.78 correlation, while hospitalizations and deaths correlate at 0.64. This suggests that once heat starts causing problems in a state, it cascades across the entire healthcare system. States experiencing more ER visits also see more hospitalizations and deaths, regardless of their absolute heat exposure levels.
+
 This pattern reinforces our key finding: the states struggling with heat aren't necessarily the ones with the most extreme temperatures but they're the ones where heat translates into health crises due to vulnerability factors like demographics, infrastructure, or preparedness.
 
 ## Who Gets Hurt? Understanding Vulnerability
 
 ### Age and Gender Matters
 
-Not all Americans face equal risk. When we break down hospitalizations by age group, a concerning pattern emerges: adults aged 35-64 and seniors 65+ account for the vast majority of heat-related hospitalizations. The elderly are particularly vulnerable, showing the highest rates throughout our study period.
+Not all Americans face equal risk. We look at the breakdown in these demographics through a mosaic plot:
 
 ```{r}
 #| fig-width: 10
@@ -613,14 +615,14 @@ vcd::mosaic(Outcome ~ Age_Group + Sex,
             keep_aspect_ratio = FALSE)
 ```
 
-Our mosaic plot reveals additional nuances: while all age groups are affected, the proportion of severe outcomes (hospitalizations vs. ED visits) increases dramatically with age. The darkest bands—representing hospitalizations—dominate the older age groups.
+Our mosaic plot reveals that while all age groups are affected, the proportion of severe outcomes (hospitalizations vs. ER visits) increases dramatically with age. The blue bands—representing hospitalizations—dominate the older age groups.
 The key finding is age is a critical risk factor. Older Americans are most vulnerable to severe heat-related illness.
 
 ## The Ultimate Cost: State-Level Mortality from Heat
 
-These two charts shift the focus to the most critical heat-related outcome—death—revealing that a handful of states drive the national mortality numbers, but the true burden across all states is likely obscured by widespread data suppression.
+We now shift our focus to the most critical heat-related outcome, death, however the true distribution across all states is likely unknown due to the widespread data suppression.
 
-It is important to note that the interpretation of heat death statistics is limited by data suppression: approximately 52% of all mortality data is suppressed due to privacy concerns when the total number of deaths in a state falls below 10. This means the actual death burden for states with lower reported totals may be significantly higher than displayed, and the true mortality rate is likely underestimated.
+It is important to note that the interpretation of heat death statistics is limited by data suppression: approximately 52% of all mortality data is suppressed due to privacy concerns when the total number of deaths in a state falls below 10. This means the actual values for states with lower reported totals may be significantly higher than displayed, and the true mortality rate is likely underestimated.
 
 ### Wide Variation in Heat-Related Mortality Rates Across States
 
@@ -688,13 +690,13 @@ ggplot(mortality_rate, aes(x = reorder(State, mortality_rate),
     plot.caption = element_text(size = 9, color = "gray50", hjust = 0, margin = margin(t = 10))
   )
 ```
-This graph measures the severity of the heat problem by showing the percentage of heat-related hospitalizations that result in death (Mortality Rate).
+This graph measures the severity of the heat problem by showing the percentage of heat-related hospitalizations that result in death.
 
 States like Indiana and Arizona have exceptionally high mortality rates, with Indiana's rate exceeding 40%. These states fall into the "Very High" ($\ge 15\%$) severity level, suggesting potential severe heat events or significant failures in emergency response, where patients are either presenting late or receiving inadequate care
 
-High-burden states like Florida (high hospitalizations) and Kansas (high heat events) do not appear in the top 10 for mortality rate. This suggests that while they struggle with volume or exposure, their systems are relatively more effective at preventing death once a case reaches the hospital.
+High-burden states like Florida and Kansas do not appear in the top 10 for mortality rate. This suggests that while they struggle with volume or exposure, their systems might be relatively more effective at preventing death once a case reaches the hospital.
 
-While the extreme rates of the top outliers (like Indiana) are unlikely to be fundamentally altered by data suppression, the rates of states at the lower end of the top 20 are potentially underestimated. The suppressed data means the true mortality rate for many states may be higher than reported.
+While the extreme rates of the top outliers, like Indiana, are unlikely to be fundamentally altered by data suppression, the rates of states at the lower end of the top 20 are potentially underestimated. The suppressed data means the true mortality rate for many states might be higher than reported.
 
 ### Absolute Heat Death Burden is Concentrated in a Few States
 
@@ -747,6 +749,6 @@ ggplot(death_diverge, aes(x = State, y = diff, fill = type)) +
 ```
 A stark handful of states, particularly Arizona (nearly $+3,000$ deaths above average) and California (over $+1,300$ deaths above average), account for a massively disproportionate share of the national heat death count. This confirms that the fatal outcome of the heat crisis is concentrated geographically in these extreme outlier states.
 
-The vast majority of states fall below the national average. This pattern is heavily influenced by the skew of the top outliers. However, the presence of the 52% data suppression means the total number of heat deaths in these "below-average" states is likely undercounted, suggesting the overall national heat death crisis is worse than the public record indicates, even if the geographic concentration remains clear.
+The vast majority of states fall below the national average. This pattern is heavily influenced by the skew of the top outliers. However, the presence of the 52% data suppression means the total number of heat deaths in these "below-average" states is likely underestimated, suggesting the overall national heat death crisis is worse than the public record indicates.
 
-Florida's position, moderately above the average (by $+205$ deaths) but far below the leading states, reinforces the finding that its core problem is a high volume of non-fatal illness (morbidity), rather than extreme fatality per case.
+Florida's position, moderately above the average (by $+205$ deaths) but far below the leading states, reinforces the finding that its core problem is a high volume of non-fatal illness, rather than extreme fatality per case.
