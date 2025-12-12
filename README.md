@@ -1,9 +1,6 @@
 # 🌡️ Heat's Toll on Health
 
-[![Project Status](https://img.shields.io/badge/Status-Active-success)](https://ishmeen-11.github.io/EDAV-Project/)
-[![Data Source](https://img.shields.io/badge/Data-CDC%20EPH%20Tracking-blue)](https://ephtracking.cdc.gov/DataExplorer/)
-
-	⁠An exploratory data analysis investigating the relationship between extreme heat events and health outcomes across the United States from 2000 to 2022.
+⁠An exploratory data analysis investigating the relationship between extreme heat events and health outcomes across the United States from 2000 to 2022.
 
 *📊 [View Live Project](https://ishmeen-11.github.io/EDAV-Project/)*
 
@@ -16,7 +13,9 @@ Climate change is making extreme heat events more frequent and more severe. This
 ### Research Questions
 
 1.⁠ ⁠*Temporal Trends*: How have extreme heat events evolved across U.S. regions from 2000 to 2023?
+
 2.⁠ ⁠*Health Impact*: Is there a measurable relationship between heat events and adverse health outcomes?
+
 3.⁠ ⁠*Vulnerable Populations*: Which age groups and demographic groups face the highest risk from extreme heat?
 
 ---
@@ -28,10 +27,15 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 *Focus*: Historical temperature extremes at county level
 
 *Configuration*:
+
 •⁠  ⁠*Measure*: Annual Number of Extreme Heat Events (Full Year)
+
 •⁠  ⁠*Geography*: National by County
+
 •⁠  ⁠*Time Period*: 2000-2023
+
 •⁠  ⁠*Heat Metric*: Daily Maximum Temperature
+
 •⁠  ⁠*Parameters*:
   - Minimum Duration: 2 Days
   - Absolute Threshold: 100°F
@@ -63,9 +67,13 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 *Focus*: Hospital admissions due to heat stress
 
 *Configuration*:
-•⁠  ⁠*Measure*: Annual Number of Hospitalizations for HRI
+
+•⁠  ⁠*Measure*: Annual Number of Hospitalizations for HRI 
+
 •⁠  ⁠*Geography*: National by State
+
 •⁠  ⁠*Time Period*: 2000-2023
+
 •⁠  ⁠*Advanced Options*: All selected
 
 <details>
@@ -93,9 +101,13 @@ All data is sourced from the *[CDC Environmental Public Health Tracking Network]
 *Focus*: ER visits for heat-related conditions
 
 *Configuration*:
+
 •⁠  ⁠*Measure*: Annual Number of Emergency Department Visits for HRI
+
 •⁠  ⁠*Geography*: National by State
+
 •⁠  ⁠*Time Period*: 2000-2023
+
 •⁠  ⁠*Advanced Options*: All selected
 
 <details>
@@ -168,9 +180,9 @@ n
 
 ## 👥 Contributors
 
-•⁠  ⁠*Ishmeen Garewal*
+  - **Ishmeen Garewal**
+  - **Khushi Advani**
 
-•⁠  ⁠*Khushi Advani*
 ---
 
 ## 📝 Course Information
@@ -186,7 +198,7 @@ This project was completed as part of the *Exploratory Data Analysis and Visuali
 ---
 
 
-## 🙏 Acknowledgments
+##  ⭐ Acknowledgments
 
 •⁠  ⁠*CDC Environmental Public Health Tracking Network* for providing comprehensive public health data
 
